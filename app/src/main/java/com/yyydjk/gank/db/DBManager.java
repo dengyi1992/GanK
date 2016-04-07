@@ -30,6 +30,10 @@ public class DBManager {
         values.put(DBHelper.URL, url);
         values.put(DBHelper.DATA, data);
         values.put(DBHelper.TIME, System.currentTimeMillis());
+        /**
+         * dy:为何用replace,但是这个也没用关键词匹配
+         * 参考sqlite的用法！
+         */
         db.replace(DBHelper.CACHE, null, values);
         db.close();
     }
