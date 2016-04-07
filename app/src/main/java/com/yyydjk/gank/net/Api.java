@@ -25,6 +25,7 @@ public class Api {
      •个数： 数字，大于0
 
      例：•http://gank.avosapps.com/api/random/data/Android/20
+     不错
      */
     public static final String GANHUO = "";
 }
