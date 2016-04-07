@@ -128,7 +128,7 @@ public class MainActivity extends BaseActivity implements ColorChooserDialog.Col
 //        setIconDrawable(mSetting, MaterialDesignIconic.Icon.gmi_settings);
         setIconDrawable(mTheme, MaterialDesignIconic.Icon.gmi_palette);
         setIconDrawable(mMore, MaterialDesignIconic.Icon.gmi_more);
-
+        //画圆图片
         Glide.with(MainActivity.this)
                 .load(R.mipmap.avatar)
                 .placeholder(new IconicsDrawable(this)
